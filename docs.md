@@ -36,8 +36,11 @@ Noide Removal :
 
 An peice of text which is not relevant to the context of the data and the end-output can be specified as the noise.
 
-> language stopwords
-> URL, LINKS , social media entities( mentions , hashtags)
-> Punctuations
-> Industry specific words
+>> language stopwords
+
+>> URL, LINKS , social media entities( mentions , hashtags)
+
+>> Punctuations
+
+>> Industry specific words
 
