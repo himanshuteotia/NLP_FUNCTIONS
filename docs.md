@@ -7,7 +7,9 @@ By utilizing NLP and its components, one can organize the massive chunks of text
 
 
 Tokenization – process of converting a text into tokens
+
 Tokens – words or entities present in the text
+
 Text object – a sentence or a phrase or a word or an article
 
 
@@ -20,5 +22,22 @@ Since, text is the most unstructured form of all the available data, various typ
 It is predominantly (मुख्य रूप से) comprised (शामिल) of three steps:
 
 Noise Removal
+
 Lexicon Normalization
+
 Object Standardization
+
+
+Raw Text ----> Noisy Entities Removal (stopwords,URL's, punctations,mentions etc ) ---> Word Normalization ( Tokenization, Lemmatization, Stemming ) ----> Word Standardization ( Regular Expression, Lookup Tables ) ---> Clened Text 
+
+
+Noide Removal :
+
+
+An peice of text which is not relevant to the context of the data and the end-output can be specified as the noise.
+
+> language stopwords
+> URL, LINKS , social media entities( mentions , hashtags)
+> Punctuations
+> Industry specific words
+
